@@ -1,0 +1,98 @@
+body {
+  margin: 0; /* margin will be 0 margin properties are used to create space around elements, outside of any defined borders. */
+  min-width: 250px; /*it will set that how much width should be there */
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box; /*box-sizing property allows us to include the padding and border in an element's 
+                           total width and height. */
+}
+
+p {
+  font-style: italic;
+  text-shadow: 2px 2px #263961; /* The text-shadow property adds shadow to text. */
+  font-size: 40px;
+  padding-bottom: 12px;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative; /*The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position*/
+  padding: 20px 0px 20px 10px; /*padding: 25px 50px 75px 100px;
+                                  top,right,bottom, left */
+  margin: 0;              /* Margin will be zero*/
+  list-style-type: none; /*list will be simple*/
+  background: #ffffff;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #eee;
+}
+
+
+/* Style the header */
+.header {
+  background-color: #627aac;
+  padding: 60px 0;
+  color: white;
+  text-align: center;
+}
+
+#headerborder {
+  border: 2px solid black;
+}
+
+
+/* Style the input */
+input {
+  margin-left: 25%;
+  border: none;
+  border-radius: 4px;
+  width: 40%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 11px;
+  width: 8%;
+  background: #c4cde0;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+.edittext {
+  width: 90%;
+  padding: 10px;
+  margin-left: 0px;
+  box-sizing: border-box;
+}
+
+.deletebtn {
+  padding: 10px;
+  margin-left: 0px;
+  width: 10%;
+  border-radius: 25px;
+  border-radius: 7px;
+}
